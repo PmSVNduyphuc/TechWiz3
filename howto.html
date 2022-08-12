@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>One Health - Medical Center</title>
+  <style>
+    .topbar{
+      width: 100%;
+      height: 80px;
+    }
+    .banner{
+      width: 100%;
+      height: 550px;
+      background-color: #00D9A5;
+      text-align: center;
+      color: white;
+    }
+    h1{
+      font-size: 25px;
+      padding-top: 250px;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+
+    }
+    .step1{
+      width: 1550px;
+      height: 270px;
+      margin: auto;
+
+    }
+    .left1{
+      width: 480px;
+      height: 270px;
+      background-color: white;
+      float: left;
+      margin-left: 110px;
+    }
+
+    .right1{
+      width: 520px;
+      height: 150px;
+      border-style: solid;
+      border-color: #00D9A5;
+      background-color: #00D9A5;
+      margin-top: -95px;
+      margin-left: 85px;
+      float: left;
+    }
+    .right1s{
+      width: 514px;
+      height: 155px;
+      background-color: white;
+      margin-left: -4px;
+      margin-top: -9px;
+      text-align: center;
+      border-style: solid;
+      border-color: #00D9A5;
+      border-radius: 12px;
+
+    }
+    .tab1 {
+      padding-top: 110px;
+      margin-left: -155px;
+    }
+    img{
+      width: 110px;
+      height: 110px;
+      margin-left: 200px;
+      margin-top: 80px;
+      border-radius: 100%;
+    }
+    h2{
+      font-size: 45px;
+      text-align: center;
+      color: #00D9A5;
+      margin-top: -34px;
+      margin-left: 385px;
+    }
+
+
+
+  </style>
+</head>
+<body>
+<div class="topbar">
+
+</div>
+<div class="banner">
+          <h1>HowTo/ <a href="index">Home</a></h1>
+</div>
+
+<div>
+    <div class="step1">
+      <div class="left1">
+        <img th:src="@{/assets/img/howto/imagehowto.jpg}" alt="">
+      </div>
+        <div class="tab1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg>
+        </div>
+
+      <div class="right1">
+        <div class="right1s">
+        <form action="#">
+          <h2>1</h2>
+          <h3><a href="login">Login</a> & <a href="register">Register</a></h3>
+          <p>We need you to log in to verify who you are while using our functions</p>
+        </form>
+        </div>
+      </div>
+    </div>
+  <div class="step1">
+    <div class="left1">
+      <img th:src="@{/assets/img/howto/howtoimage3.jpg}" alt="">
+    </div>
+    <div class="tab1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+    </div>
+
+    <div class="right1">
+      <div class="right1s">
+        <form action="#">
+          <h2>2</h2>
+          <h3><a href="#">Search</a></h3>
+          <p>Bạn có thể tìm kiếm căn bệnh của mình 1 cách nhanh chóng và từ đó đưa ra lộ trình phù hợp</p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="step1">
+    <div class="left1">
+      <img th:src="@{/assets/img/person/imagehowto2.jpg}" alt="">
+    </div>
+    <div class="tab1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+    </div>
+
+    <div class="right1">
+      <div class="right1s">
+        <form action="#">
+          <h2>3</h2>
+          <h3><a href="#">Enter Health Information</a></h3>
+          <p>Chúng tôi cần nắm rõ về tình trạng sức khỏe của bạn từ đó có nhưng phương án và các liệu trình phù hợp dành cho bạn</p>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="step1">
+  <div class="left1">
+    <img th:src="@{/assets/img/howto/imagehowto4.jpg}" alt="">
+  </div>
+  <div class="tab1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+    </svg>
+  </div>
+
+  <div class="right1">
+    <div class="right1s">
+      <form action="#">
+        <h2>4</h2>
+        <h3><a href="#">Medicine</a></h3>
+        <p>Từ nhưng dữ liệu từ các bạn cung cấp chúng tôi đưa ra các liệu trình điều trị phù hợp</p>
+
+      </form>
+    </div>
+  </div>
+</div>
+  <div class="step1">
+    <div class="left1">
+      <img th:src="@{/assets/img/howto/howtoimage5.jpg}" alt="">
+    </div>
+    <div class="tab1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+    </div>
+
+    <div class="right1">
+      <div class="right1s">
+        <form action="#">
+          <h2>5</h2>
+          <h3><a href="#">Appointment</a></h3>
+          <p>Các Bạn Có Thể Tạo Cuộc Hẹn Với Các Bác Sĩ Có Chuyên Môn</p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="step1">
+    <div class="left1">
+      <img th:src="@{/assets/img/howto/howto6.jpg}" alt="">
+    </div>
+    <div class="tab1">
+      <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+    </div>
+
+    <div class="right1">
+      <div class="right1s">
+        <form action="#">
+          <h2>6</h2>
+          <h3><a href="#">FeedBack</a></h3>
+          <p>Sau Khi Trải Nghiệm Chúng Tôi Cần Những Phản Hội Từ Các Bạn Để Ngày Càng Hoàn Thiện Hơn</p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</body>
+</html>
